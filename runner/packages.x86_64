@@ -1,0 +1,12 @@
+amd-ucode
+base
+bash
+docker
+edk2-shell
+linux
+mkinitcpio
+mkinitcpio-archiso
+nano
+qemu-guest-agent
+memtest86+
+memtest86+-efi

@@ -1,0 +1,11 @@
+[Unit]
+Description=Forgejo Runner
+After=network.target
+
+[Service]
+ExecStart=/root/runner.sh
+Type=simple
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
